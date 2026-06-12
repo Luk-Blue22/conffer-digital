@@ -49,7 +49,9 @@ function tarjeta(p, esStock) {
     : `Hola! Quisiera cotizar la ${p.n} del catálogo de CONFFER`;
   const imagen = p.img
     ? `<div class="prod-img" style="background:#F5EDE0;overflow:hidden">
-        <img src="${p.img}" alt="${p.n}" style="width:100%;height:100%;object-fit:contain;padding:6px;">
+        <img src="${p.img}" alt="${p.n}"
+          style="width:100%;height:100%;object-fit:contain;padding:6px;cursor:zoom-in"
+          onclick="event.stopPropagation();abrirLightbox('${p.img}','${p.n}','${p.p}')">
         ${badge}
       </div>`
     : `<div class="prod-img" style="background:${p.bg}">${GARMENT_SVG}${badge}</div>`;

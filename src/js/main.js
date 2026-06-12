@@ -89,3 +89,20 @@ function enviarIdea() {
     : `Hola! Quiero que fabriquen una prenda a mi medida en CONFFER. ¿Me pueden ayudar?`;
   window.open(waLink(msg), '_blank');
 }
+
+function abrirLightbox(src, nombre, precio) {
+  document.getElementById('lb-img').src = src;
+  document.getElementById('lb-nombre').textContent = nombre;
+  document.getElementById('lb-precio').textContent = precio;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function cerrarLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') cerrarLightbox();
+});
