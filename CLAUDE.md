@@ -15,7 +15,7 @@ src/
   datos/
     productos.json          # Los 20 productos en formato JSON
 public/
-  images/productos/         # Imágenes de producto (vacío, pendiente)
+  images/productos/         # Fotos reales CON-001..CON-020
 ```
 
 ## Orden de carga de scripts
@@ -27,6 +27,4 @@ public/
 
 ## Pendiente
 
-- Reemplazar `52XXXXXXXXXX` con el número de WhatsApp real
-- Subir fotos reales a `public/images/productos/`
 - Integrar Fashn.ai para el probador virtual real

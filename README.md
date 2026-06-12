@@ -14,11 +14,6 @@ Sitio web de la tienda/taller de confección CONFFER, Aguaruto, Culiacán, Sinal
 
 Abrir `index.html` en un navegador (o servir con cualquier servidor estático).
 
-## Configuración
-
-1. Reemplazar `52XXXXXXXXXX` en [src/js/catalogo.js](src/js/catalogo.js) con el número de WhatsApp real.
-2. Agregar fotos de productos en `public/images/productos/`.
-
 ## Estructura de archivos
 
 | Archivo | Contenido |
