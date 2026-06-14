@@ -19,6 +19,7 @@ body{font-family:var(--f-b);background:var(--bg);color:var(--fg);overflow-x:hidd
 .nav.s{background:rgba(14,12,7,.96);backdrop-filter:blur(14px);padding:.85rem 2.5rem;border-bottom:1px solid rgba(200,168,75,.14)}
 .logo{display:flex;align-items:center;gap:.7rem;text-decoration:none}
 .logo-ico{width:38px;height:38px}
+.logo-ico-img{width:42px;height:42px;object-fit:contain;flex-shrink:0}
 .logo-t{line-height:1.1}
 .logo-n{display:block;font-family:var(--f-d);font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.1em}
 .logo-s{display:block;font-size:.6rem;color:var(--fg2);letter-spacing:.22em;text-transform:uppercase}
